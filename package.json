@@ -23,6 +23,12 @@
     "url": "https://github.com/DHcurry/pi-cache-ttl/issues"
   },
   "type": "module",
+  "files": [
+    "extensions/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "pi": {
     "extensions": [
       "./extensions/cache-ttl.ts"
