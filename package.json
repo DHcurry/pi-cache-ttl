@@ -1,0 +1,37 @@
+{
+  "name": "pi-cache-ttl",
+  "version": "1.0.0",
+  "description": "Pi extension: live prompt-cache TTL countdown in the footer — shows how long your provider's prefix cache stays warm, per provider/model.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "prompt-cache",
+    "cache-ttl",
+    "cache",
+    "llm",
+    "footer",
+    "countdown"
+  ],
+  "license": "MIT",
+  "author": "DHcurry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHcurry/pi-cache-ttl.git"
+  },
+  "homepage": "https://github.com/DHcurry/pi-cache-ttl#readme",
+  "bugs": {
+    "url": "https://github.com/DHcurry/pi-cache-ttl/issues"
+  },
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions/cache-ttl.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
